@@ -7,7 +7,7 @@
 // this is a non-issue.
 
 // Load.
-importScripts('/app/gen/evil/_data/loader.js');
+importScripts('/app/gen/evil/webdata/loader.js');
 
 // Return.
 postMessage(g_Data);

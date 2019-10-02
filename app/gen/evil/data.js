@@ -4,7 +4,7 @@ define(['core/foundry', 'core/dataloader'], function(foundry, dataLoader) {
             loaded : false,
             data : {},
         };
-        let loader = new Worker('/app/gen/evil/_data/worker.js');
+        let loader = new Worker('/app/gen/evil/webdata/worker.js');
         
         loader.onmessage = function(event) {
             window.GeneratorFoundry.EvilGenerator.loaded = true;
